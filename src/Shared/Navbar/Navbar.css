@@ -1,0 +1,13 @@
+.nav_item{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.search_bar{
+    grid-column: auto / span 3;
+    grid-row: auto / span 1;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav_item{
+        grid-template-columns: 1fr 1fr;
+    }
+  }

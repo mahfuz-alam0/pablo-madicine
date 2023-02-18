@@ -1,0 +1,6 @@
+.explore{
+    grid-template-columns: 25% 75%;
+    background-image: url('../../../assate/short_phone.png');
+    background-repeat: no-repeat;
+
+}

@@ -1,0 +1,48 @@
+.col_7{
+    grid-column: auto / span 7;
+}
+.col_13{
+    grid-column: auto / span 13;
+}
+
+.img_col{
+    grid-column: auto / span 4;
+    grid-row: auto / span 2;
+
+}
+.col_11{
+    grid-column: auto / span 10;
+}
+
+.col_10{
+    grid-column: auto / span 10;
+}
+.main_grid{
+    grid-template-columns: repeat(24, 1fr);
+    /* grid-gap: 10px; */
+    margin: 0 auto;
+    width: 100%;
+}
+
+.small_grid{
+    grid-template-columns: 65% 35%;
+}
+
+
+@media only screen and (max-width: 1020px) {
+    .main_grid{
+        grid-template-columns: 70% 30%;
+    }
+    .col_13{
+        grid-column: auto / span 1;
+    }
+    .button_upload{
+        grid-column: auto / span 1;
+    }
+    .img_col{
+        grid-column: auto / span 1;
+    }
+    .head_test{
+        grid-column: auto / span 2;
+    }
+}

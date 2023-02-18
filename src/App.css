@@ -1,0 +1,44 @@
+*{font-family: 'Poppins', sans-serif;}
+
+.slide{
+    transform:translate(1040px, 0)
+}
+.actice{
+    transform:translate(0, 0)
+
+}
+.banner{
+    transition: 5ms;
+}
+.text_round{
+    border-radius: 50px 8px 0px 0px;
+}
+
+.number{
+    background-image: url('/src/assate/Vector.png');
+    background-repeat: no-repeat;
+}
+.number_round{
+    /* border-radius: 50% 0 50% 50%; */
+    background-image: url('/src/assate/Vector.png');
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
